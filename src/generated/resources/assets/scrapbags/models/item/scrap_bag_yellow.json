@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scrapbags:item/scrap_bag_yellow"
+  }
+}
