@@ -1,20 +1,26 @@
-*.class
-*.classpath
-*.db
-*.iml
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
 *.ipr
 *.iws
-*.launch
-*.prefs
-*.project
-/.gradle
-/.idea/
-/bin/
-/build/
-/eclipse/
-/libs/
-/out/
-/output/
-/run/
-/logs/
-/src/datagen/generated/.cache/cache
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+runs
+run-data
+
+repo
